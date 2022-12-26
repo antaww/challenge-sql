@@ -1,0 +1,1 @@
+INSERT INTO genres (genre_name) VALUES ('Electro');
