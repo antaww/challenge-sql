@@ -1,1 +1,1 @@
-SELECT DISTINCT Name FROM playlists WHERE Name LIKE 'M%'
+SELECT DISTINCT Name FROM playlists WHERE Name LIKE 'M%' ORDER BY Name;
