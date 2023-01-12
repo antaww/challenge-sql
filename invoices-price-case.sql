@@ -1,4 +1,4 @@
-SELECT InvoiceId, Total AS InvoiceTotalPrice,
+SELECT InvoiceId, Total,
 CASE
     WHEN Total < 5 THEN 'Price lower than 5$'
     WHEN Total < 10 THEN 'Price lower than 10$'
